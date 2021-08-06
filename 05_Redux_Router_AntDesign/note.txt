@@ -1,0 +1,3 @@
+React Router
+Redux -> Tách ra thành nhiều Reducer
+Làm quen với Thư viện Ant Design (Bootstrap của HTML, CSS, Js..)

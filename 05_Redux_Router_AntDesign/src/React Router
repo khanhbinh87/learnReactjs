@@ -1,0 +1,17 @@
+React Router
+  - Tạo Router, Config Router
+  - Tạo Router lồng nhau (Nesting Router);
+  - Tạo Router truyền biến lên url, lấy params ra sử dụng bằng hook (useParams)
+  - Xác thực Router (Chặn Router private)
+    Higher Order Component 
+
+Redux
+  - Cấu hình Redux, Tạo Reducer. Tách nhỏ Reducer
+  - Tạo Action
+  - Kết nối Reducer với Component
+    Cách 1: Class dùng hàm connect -> mapStateToProps, mapDispatchToProps
+    Cách 2: React Hook -> useSelector, .......
+
+Antd Design
+  - Cấu hình - Config Themes
+  - Custom lại css bằng styled-components

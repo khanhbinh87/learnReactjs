@@ -1,0 +1,30 @@
+Action
+Reducer
+Store
+Selector | Getter
+
+
+B1: Tạo Reducer
+  -> Là một Pure Function
+
+B2: Tạo Action (dispatch) -> Dùng ở trong Component
+  Action là một Plain Object
+    -> Thường khai bao thành một Function return về Plain Object
+    -> Function này cũng phải là Pure Function
+
+B2: Tạo Store -> Phải có Reducer
+B3: Tạo Provider bao bọc App của mình 
+
+  => Sau này khi học tới tương tác với API -> Cần dùng tới MiddleWare của Redux 
+
+
+- Cách truyền thống. Kết nối dùng connect của react-redux
+  -> Dùng được cho cả Functional Component và Class Component
+  kết nối với Compooent
+  B1: Import connect từ react-redux
+  B2: Bọc Component của mình vào lời gọi hàm connect()(Component)
+
+  User dispatch 1 action -> Chuyển tới Reducer -> Thay đổi State 
+    => Phân phối lại tới những Component mà có connect tới
+
+- Cách dùng Hook -> Chỉ có Functional Component mới được dùng React Hook
